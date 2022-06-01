@@ -12,7 +12,9 @@ public class PlanejadorDeChurrasco {
     }
 
     public float calculaQtdCarne(){
-        //escrever a logica do quadradinho verde
-        return 0;
+        float total = 0;
+        total = total + (adulto * 250f);
+        total = total + (crianca * 100f);
+        return total;
     }
 }
